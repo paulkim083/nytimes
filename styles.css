@@ -1,0 +1,144 @@
+body {
+    font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.content-container {
+    border: 3px solid red;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header1 {
+    align-content: flex-start;
+}
+
+.header-left p:first-child {
+    color: rgb(40, 171, 214);
+    font-weight: 600;
+}
+
+.header-left {
+    line-height: 1.2;
+    margin-top: 0.4em; 
+}
+
+.header-middle {
+    font-weight: 700;
+    font-size: 4rem;
+    align-self: flex-start;
+    
+}
+
+.header-button {
+    color: white;
+    background-color: #00B3E5;
+    border: 0;
+    border-radius: 0.2rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.5em 2em;
+    margin-top: 0.5em;
+    align-self: flex-start;
+}
+
+.header2 {
+    padding-top: 1em;
+    font-weight: 700;
+    font-size: 1rem;
+    
+}
+.navbar {
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: repeat(13, auto);
+    grid-gap: 1em;
+    
+}
+
+.navbar > * {
+    display: inline;
+}
+
+.navbutton {
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0;
+    background-color: white;
+}
+
+.border-line {
+    border-bottom: 1px solid rgb(124, 122, 122);
+    padding-top: 0.5em;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+.left-content {
+    grid-column-start: 1;
+}
+
+.caption {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding-bottom: 1.4em;
+}
+
+.left-content p {
+    line-height: 1.4;
+    padding: 0.6em 0;
+}
+
+.left-content blockquote {
+    background-color:rgb(247, 241, 241);
+    font-weight: 600;
+    padding: 0.8em;
+    font-size: 0.9rem;
+    margin: 1.4em 0;
+}
+
+.content-grid h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.social-media {
+    margin-top: 1em; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    padding: 0.3em;
+    border-radius: 50%;
+    margin-right: 0.4em;
+}
+
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-phone-square-alt {
+    color: green;
+}
+
+.fa-reddit {
+    color: red;
+}
+
