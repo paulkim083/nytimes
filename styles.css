@@ -4,13 +4,12 @@ body {
 
 .container {
     box-sizing: border-box;
-    border: 3px solid black;
+   
     width: 100%;
     min-height: 100vh;
 }
 
 .content-container {
-    border: 3px solid red;
     width: 60%;
     margin: 0 auto;
 }
@@ -61,7 +60,7 @@ body {
     
 }
 .navbar {
-    border: 2px solid blue;
+    
     display: grid;
     grid-template-columns: repeat(13, auto);
     grid-gap: 1em;
@@ -84,9 +83,12 @@ body {
     padding-top: 0.5em;
 }
 
+
+
 .content-grid {
     display: grid;
     grid-template-columns: 7fr 3fr;
+    margin-top: 2em;
 }
 
 .left-content {
@@ -255,6 +257,22 @@ body {
     background-color: #FF0000;
 }
 
+.right-content {
+    display: grid;
+    grid-gap: 0.2em; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: min-content;
+
+}
+
+.sidebar {
+    background-color:rgb(228, 228, 228);
+}
+
+.sidebar2 {
+    grid-column: 1 / -1;
+}
+
 .article-grid {
     margin-top: 2em;
     grid-column: 1 / -1;
@@ -277,7 +295,7 @@ body {
 }
 
 .articles div {
-    border: 2px solid;
+   
     width: 250px;
 }
 
@@ -285,4 +303,68 @@ body {
     font-weight: 600;
     padding: 0.5em 0;
     font-size: 1.1rem;
+}
+
+.footer {
+    background-color: rgb(228, 228, 228);
+    margin-top: 4em;
+}
+
+.footer .content-container h2 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 1.2em 0 1rem 0;
+}
+
+.footer .content-container p {
+    display: inline;
+}
+
+.footer .content-container input {
+    margin: 0 0.5em;
+    border: 0;
+    border-bottom: 2px solid black;
+    background-color: inherit;
+    width: 20em;
+    font-size: 1.1rem;
+}
+
+.footer .content-container button {
+    border: 0;
+    color: white;
+    background-color:rgb(40, 171, 214);
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 0.2em 4em;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-bar li {
+    padding-right: 0.5em;
+    border-right: 1px solid rgb(31, 29, 29);
+    margin-right: 0.5em;
+}
+
+.footer-bar .last {
+    border-right: 0;
+}
+
+.bar1 {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+.bar2 {
+    padding-top: 1em;
+}
+
+.bar3 {
+    padding-top: 1.4em;
+    padding-bottom: 4em;
 }
