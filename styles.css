@@ -115,30 +115,174 @@ body {
 .content-grid h1 {
     font-weight: 700;
     font-size: 2.8rem;
+    margin-bottom: 0.5em;
 }
 
 .social-media {
-    margin-top: 1em; 
+    
     display: flex;
     justify-content: flex-start;
 }
 
-.button {
-    padding: 0.3em;
-    border-radius: 50%;
-    margin-right: 0.4em;
+.social-media li {
+    display:inline-block;
+    background: #f00;
+    margin-right: 0.7em;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center; 
 }
 
-
-.fa-facebook {
-    color: blue;
+.social-media li a {
+    color: #fff;
+    
 }
 
-.fa-phone-square-alt {
-    color: green;
+.social-media li a i {
+    line-height: 40px;
 }
 
-.fa-reddit {
-    color: red;
+.social-media li:nth-child(1) {
+    background: #1877F2;
 }
 
+.social-media li:nth-child(2) {
+    background: #1DA1F2;
+}
+
+.social-media li:nth-child(3) {
+    background: #25D366;
+}
+
+.social-media li:nth-child(4) {
+    background: #0A66C2;
+}
+
+.social-media li:nth-child(5) {
+    background: #FF5700;
+}
+
+.social-media li:nth-child(6) {
+    background: rgb(189, 186, 186);
+}
+
+.social-media li:nth-child(7) {
+    background: rgb(189, 186, 186);
+}
+
+.topicbuttons {
+    border: 0;
+    border-radius: 4px;
+    color:white;
+    background-color: rgb(38, 3, 121);
+    font-weight: 600;
+    padding: 0.5em;
+    margin-right: 0.8em;
+}
+
+.sponsored-content {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(244, 245, 247);
+    margin-top: 2em;
+}
+
+.sponsored-content h2:first-child {
+    background-color:#00B3E5;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.5em 0.2em;
+}
+
+.sponsor-info {
+    padding: 1em 0.6em;
+}
+
+.sponsor-info h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.sponsor-img {
+    width: 290px;
+    float: left;
+    padding-right: 1em;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5em;
+}
+
+.small {
+    margin-top: 0;
+}
+
+.bot-buttons {
+    display: flex;
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-button {
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.5em 1.3em; 
+    margin-bottom: 0.5em;
+    margin-left: 0.8em;
+    background-color: black;
+    border: 0; 
+    border-radius: 3px;
+}
+
+.bot-1 {
+    background-color: #00B3E5;
+}
+
+.bot-2 {
+    background-color: #20B2AA;
+}
+
+.bot-3 {
+    background-color: #FF0000;
+}
+
+.article-grid {
+    margin-top: 2em;
+    grid-column: 1 / -1;
+}
+
+.article-grid h2 {
+    font-weight: 500;
+    padding: 1em 0;
+    font-size: 1.4rem;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.articles img {
+    width: 250px;
+}
+
+.articles div {
+    border: 2px solid;
+    width: 250px;
+}
+
+.articles div h3 {
+    font-weight: 600;
+    padding: 0.5em 0;
+    font-size: 1.1rem;
+}
